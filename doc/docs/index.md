@@ -19,5 +19,5 @@ For installation instructions, see [Installing nRF Connect for Desktop apps](htt
 
 ## Application source code
 
-The code of the application is open source and [available on GitHub](https://github.com/NordicSemiconductor/pc-nrfconnect-board-configurator).
+The code of the application is open source and [available on GitHub](https://github.com/nordicsemi/pc-nrfconnect-board-configurator).
 Feel free to fork the repository and clone it for secondary development or feature contributions.
