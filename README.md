@@ -1,6 +1,5 @@
 # Board Configurator app
 
-[![Build Status](https://dev.azure.com/NordicSemiconductor/Wayland/_apis/build/status/pc-nrfconnect-boilerplate?branchName=master)](https://dev.azure.com/NordicSemiconductor/Wayland/_build/latest?definitionId=10&branchName=master)
 [![License](https://img.shields.io/badge/license-Modified%20BSD%20License-blue.svg)](LICENSE)
 
 The Board Configurator app in nRF Connect for Desktop lets you update the
