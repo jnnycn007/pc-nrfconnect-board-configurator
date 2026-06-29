@@ -9,12 +9,24 @@ type PinDefinition = {
     invert?: boolean;
 };
 
+interface DependantPinDefinition extends PinDefinition {
+    id: string;
+}
+
 type VcomConfigPinDefinition = {
     type: 'vcom';
     id: string;
     name: string;
     enable: PinDefinition;
     hwfc: PinDefinition;
+};
+
+type DtrConfigPinDefinition = {
+    type: 'dtr';
+    id: string;
+    name: string;
+    enable: PinDefinition;
+    dependantPin: DependantPinDefinition;
 };
 
 type SwitchConfigDefinition = {
@@ -66,6 +78,7 @@ type PmicConfigPort = { port: number; voltage: number };
 type PinType =
     | SwitchConfigDefinition
     | SlideConfigDefinition
+    | DtrConfigPinDefinition
     | VcomConfigPinDefinition;
 
 type BoardControllerConfigDefinition = {
